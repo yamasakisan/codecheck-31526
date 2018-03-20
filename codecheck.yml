@@ -1,0 +1,8 @@
+## For non-linux environments (local MacOS / Windows, etc):
+# test:  mocha -R tap
+
+## for display-less linux environments (whale-server, debian, ubuntu, etc):
+build:
+  - apt-get update
+  - apt-get install -qqy xvfb libnss3-dev
+test: xvfb-run mocha -R tap

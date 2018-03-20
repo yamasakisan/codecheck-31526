@@ -1,0 +1,21 @@
+{
+  "name": "challenge-template",
+  "version": "1.0.0",
+  "description": "codecheck challenge",
+  "author": "Givery",
+  "devDependencies": {
+    "codecheck": "^0.6.0",
+    "chai": "^3.5.0",
+    "eslint": "^3.18.0"
+  },
+  "dependencies": {
+    "async": "^2.5.0",
+    "chai-http": "^3.0.0",
+    "jquery": "^3.2.1",
+    "nightmare": "^2.10.0",
+    "request-promise": "^4.2.2",
+    "sync-request": "^4.1.0",
+    "then-request": "^4.1.0",
+    "valid-url": "^1.0.9"
+  }
+}
